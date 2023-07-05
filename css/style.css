@@ -250,7 +250,7 @@ text-decoration: none;
 }
 
 .card img {
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     height: 7rem;
     width: 13rem;
 }
@@ -332,8 +332,39 @@ color: #d9d9d9;;
     margin-bottom: 5px;
 }
 
+/****** Section Activity **********/
+.activity {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 30px;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.activity-card .card {
+padding: 0;
+}
 
 
+.activity-card img {
+    height: 23rem;
+    object-fit: cover;
+    width: 17rem;
+}
+
+.activity-card .card-content {
+    padding: 20px 19px;
+}
+
+.activity-card .card-content h3{
+    text-decoration: none;
+    color: black;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
