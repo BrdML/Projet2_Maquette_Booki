@@ -14,19 +14,26 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <!-- Header section -->
-    <header class="bloc-header">
-        <img class="logo" src="images/logo/Booki.png" alt="Logo Booki">
-        <nav class="nav-menu">
-            <ul class="list-menu">
-                <li class="item-menu"><a href="#hosting">Hébergements</a></li>
-                <li class="item-menu"><a href="#activites">Activités</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+<body> 
     <div class="main-container">
+        <!-- Header section -->
+        <header class="bloc-header">
+            <img class="logo" src="images/logo/Booki.png" alt="Logo Booki">
+            <nav class="nav-menu">
+                <ul class="list-menu">
+                    <li class="item-menu">
+                        <div class="borderbox">
+                            <a href="#hosting">Hébergements</a>
+                        </div>
+                    </li>
+                    <li class="item-menu">
+                        <div class="borderbox">
+                            <a href="#activites">Activités</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>   
         <main>
             <!-- Search section -->
             <section class="search">
@@ -39,16 +46,17 @@
                         <i class="location fa-solid fa-location-dot"></i>
                         <input class="search-input" type="search" placeholder="Marseille, France">
                         <button class="search-submit">Rechercher</button>
+                        <span class="search-icon"><i class=" loupe fa-solid fa-magnifying-glass"></i></span> 
                     </div>
                 </form>
                 <article class="search-filter">
                     <h2>Filtres</h2>
                     <div class="filter-button">
-                        <div class="btnblock1">
+                        <div class="btn-block">
                             <button class="searchButton"><i class="fas fa-money-bill-wave"></i>Economie</button>
                             <button class="searchButton"><i class="fas fa-child "></i>Familial</button>
                         </div>
-                        <div class="btnblock2">
+                        <div class="btn-block">
                             <button class="searchButton"><i class="fas fa-heart"></i>Romantique</button>
                             <button class="searchButton"><i class="fa-sharp fa-solid fa-fire"></i>Nos pépites</button>
                         </div>
@@ -65,7 +73,7 @@
                         <div class="hosting-title">
                             <h2 class="section-title">Hébergements à Marseille</h2>
                         </div>
-                        <div class="blocCard">
+                        <div class="bloc-Card">
                             <article class="card">
                                 <a href="#" class="card-link">  
                                     <img src="./images/hebergements/fred-kleber.jpg" alt="Image de L'hôtel du port">
@@ -124,7 +132,7 @@
                                 </a>
                             </article>
                         </div>
-                        <div class="blocCard">
+                        <div class="bloc-Card">
                             <article class="card">
                                 <a href="#" class="card-link">  
                                     <img src="./images/hebergements/annie-spratt.jpg" alt="Image de L'hôtel de la mer">
@@ -295,9 +303,9 @@
                 </div>
             </section>
         </main>
-        <footer class="blocFooter">
-            <div class="contentFooter">
-                <article class="columnFooter">
+        <footer class="bloc-Footer">
+            <div class="content-Footer">
+                <article class="column-Footer">
                     <h3>À propos</h3>
                     <ul>
                         <li><a href="#">Fonctionnement du site</a></li>
@@ -305,14 +313,14 @@
                         <li><a href="#">Données et confidentialité</a></li>
                     </ul>
                 </article>
-                <article class="columnFooter">
+                <article class="column-Footer">
                     <h3>Nos hébergements</h3>
                     <ul>
                         <li><a href="#">Charte qualité</a></li>
                         <li><a href="#">Proposer votre hôtel</a></li>
                     </ul>
                 </article>
-                <article class="columnFooter">
+                <article class="column-Footer">
                     <H3>Assistance</H3>
                     <ul>
                         <li><a href="#">Centre d’aide</a></li>
