@@ -289,7 +289,7 @@ color: #0065FC;
 text-decoration: none;
 }
 
-.card img {
+.hebergements .card img {
     border-radius: 20px 20px 0px 0px;
     height: 124px;
     width: 100%;
@@ -347,13 +347,12 @@ color: #d9d9d9;;
 }
 
 .populaires-cards img {
-    width: 111px;
+    width: 40%;
     height: 155px;
     border-radius: 20px 0px 0px 20px;
 }
 
 .populaires-cards .card-content {
-    width: 67%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -395,6 +394,7 @@ width: 24%;
 
 
 .activity-card img {
+    border-radius: 20px 20px 0px 0px;
     height: 350px;
     width: 100%;
 }
@@ -600,10 +600,6 @@ width: 24%;
     .populaires-cards {
         display: flex;
         flex-direction: column;
-    }
-
-    .populaires-cards .card-content {
-        width: 100%;
     }
 
     .bloc-Card {
